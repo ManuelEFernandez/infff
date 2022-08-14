@@ -1,8 +1,9 @@
 const botonVerde = document.getElementById("boton-verde");
 const botonAzul = document.getElementById("boton-azul");
 const botonNegro = document.getElementById("boton-negro");
-const spanInfinito = document.getElementById("span-infinito");
-const cajaInfinito = document.getElementById("caja-infinito");
+const spanInfinito = document.querySelector(".span-infinito");
+const cajaInfinito = document.querySelector(".caja-infinito");
+
 
 
 let cambiaColor = (color)  => {
